@@ -1,0 +1,43 @@
+- title :       Software Delivery
+  description : Every project is unique, and needs its own right toolset, language
+                and approach. We work with multiple languages and approaches.
+                Also, buiding alone has no business value, it needs to be delivered.
+  image:        fa-diamond
+
+
+- title :       Project planning
+  description:  Have ideas that needs roadmaps? An inception should provide with
+                a crows view of tasks ahead, team requirements, estimates and
+                release plans. We can help plan your software with your ideas.
+  image:        fa-paper-plane
+
+
+- title :       Mobile Development
+  description:  Your project needs to be ready to serve people on the go. We can
+                build mobile ready applications, from mobile apps to responsive
+                sites that can be used on any device.
+  image:        fa-paper-plane
+
+- title :       Test automation
+  description:  A repeatetive guarantee of what works provides confidence to deliver.
+                The impact area of a change grows with the project size. This is
+                where test automation keeps the team sane and productive.
+  image:        fa-cog fa-spin
+
+- title :       Continuous Delivery
+  description:  Money spent on a feature lying on the shelf provides no return. This
+                problem can be solved if we are able to release on demand with
+                a single command and making sure it can be repeated when it is needed.
+  image:        fa-cloud-upload
+
+- title :       Startup
+  description:  Startups are different to established business. Having worked with
+                startups before, we can help setup the base of your product,
+                create MVPs needed, build teams and even develop the complete product.
+  image:        fa-rocket
+
+- title :       Team Culture
+  description:  Software delivery is a team activity. It needs mentor-ship, technology
+                ramp up and team culture. We can help build your team that focusses
+                more on <i>value based delivery</i> rather than <i>statistics</i>.
+  image:        fa-puzzle-piece

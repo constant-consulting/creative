@@ -1,119 +1,25 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
+
+        {% for service in site.data.portfolio %}
             <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/software-development.jpg" class="img-responsive" alt="">
+                <a class="portfolio-box">
+                    <img src="{{service.image}}" class="img-responsive" alt="">
 
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Software Delivery
+                                {{service.title}}
                             </div>
                             <div class="project-name">
-                                Every project is a snowflake, and it needs its right toolset, right language and a right
-                                approach. We work with multiple languages and approach. Also, buiding alone has no
-                                business value, it should be delivered.
+                                {{service.description}}
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/ideation.jpg" class="img-responsive" alt="">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Inceptions and project planning
-                            </div>
-                            <div class="project-name">
-                                Have an idea that needs a roadmap? A short inception should give a high level idea,
-                                a crows view of what is to be done and a rough estimations and release planning.
-                                We can help you plan your software from your idea while keeping in mind that change is
-                                inevitable.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/team.jpg" class="img-responsive" alt="">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Team Culture
-                            </div>
-                            <div class="project-name">
-                                Software delivery is a team activity.
-                                It might need mentor-ship by example, technology ramp up and above all team culture.
-                                We can help build a team culture that focusses more on <i>value based delivery</i>
-                                rather
-                                than <i>statistics based delivery</i>.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/test-automation.jpg" class="img-responsive" alt="">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Test automation
-                            </div>
-                            <div class="project-name">
-                                A repeatetive guarantee of what works gives a confidence to be able to deliver something
-                                and be sure that it works. Once the size of the project grows, so does the areas that a
-                                change can impact. This is where test automation keeps the team sane and productive.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/continuous-delivery.png" class="img-responsive" alt="">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Continuous Delivery
-                            </div>
-                            <div class="project-name">
-                                Ever spend money on a feature only to wait months before it hit the market? Delivery is
-                                often an overlooked aspect. This problem can be solved by bringing
-                                both aspects of work to the same team. Its all about building platform
-                                on demand, making sure it can be repeated when it is needed.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/start-up.png" class="img-responsive" alt="">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Startup
-                            </div>
-                            <div class="project-name">
-                                Startups are different to established business. We've been lucky to have worked with
-                                startups and now we know how the definition of quality and scope differ from that of a
-                                established business. We can help setup base of the product, create MVPs needed for a
-                                funding rounds, or establish teams and even develop the complete product.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
