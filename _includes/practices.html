@@ -10,7 +10,12 @@
             {% for service in site.data.practices %}
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box">
-                    <img src="{{service.image}}" class="img-responsive" alt="">
+                    {% assign palletIndex = forloop.index | modulo:site.data.pallets.size %}
+                    <img src="img/practices/stensil.png" class="img-responsive" alt=""
+                    style="background-color: #{{ site.data.pallets[palletIndex] }}">
+                    <span class="portfolio-box-title">
+                        <h2 class="animated infinite pulse" style="animation-duration: 5s">{{service.title}}</h2>
+                    </span>
 
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">

@@ -5,13 +5,6 @@
   image:        img/portfolio/software-development.jpg
 
 
-- title :       Inceptions and project planning
-  description:  Have ideas that needs roadmaps? An inception should provide with
-                a crows view of tasks ahead, team requirements, estimates and
-                release plans. We can help plan your software with your ideas.
-  image:        img/portfolio/ideation.jpg
-
-
 - title :       Test automation
   description:  A repeatetive guarantee of what works provides confidence to deliver.
                 The impact area of a change grows with the project size. This is
@@ -29,6 +22,12 @@
                 startups before, we can help setup the base of your product,
                 create MVPs needed, build teams and even develop the complete product.
   image:        img/portfolio/start-up.png
+
+- title :       Inceptions and project planning
+  description:  Have ideas that needs roadmaps? An inception should provide with
+                a crows view of tasks ahead, team requirements, estimates and
+                release plans. We can help plan your software with your ideas.
+  image:        img/portfolio/ideation.jpg
 
 - title :       Team Culture
   description:  Software delivery is a team activity. It needs mentor-ship, technology

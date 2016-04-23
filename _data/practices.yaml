@@ -1,0 +1,38 @@
+- title :       TDD
+  image :       img/practices/redgreenrefactor.png
+  description : Writing tests before production code sets up the correct expectations.
+                As the system grows, these tests ensure that the software continues
+                to behave as expected and without bugs. # stolen from 8th light, needs rewording
+
+- title :       Agile
+  image :       img/practices/agile-values.png
+  description : We emphasize on the principles of the agile manifesto over the processes established.
+                This has helped us questions various practices implemented in a team and select the
+                ones that solve the contemporary problem and provide a continuous productive environment.
+
+- title :       Small Iterations
+  image :       img/practices/addie-process.png
+  description : We believe that most software requirements are based on some form of assumptions. To make
+                a product successful, we constantly revalidate the assumptions by working on short iterations
+                that allows us to quickly revalidate those assumptions and adapt to the changing requirements.
+
+- title :       Continuous Integration
+  image :       img/practices/success-failure.jpg
+  description : Multiple developers work on a single project, and to maintain the integrity of the project, we
+                use control systems to merge and test the code so that we don't invalidate work already done.
+
+- title :       Continuous Delivery
+  image :       img/practices/redgreenrefactor.png
+  description : Any work done is not complete if it can not be delivered. We believe in delivering work to the
+                market as soon as it is done so that the investment can reap the fruits early and the feedback
+                is immediate. This allows the product to adapt to the market rapidly.
+
+# - title :       User Research
+#   image :       img/practices/redgreenrefactor.png
+#   description : Systems are built mostly for users. To build the right system, we sample the users and understand
+#                 what they really want, what they need and if the proposed or existing system is useful to them.
+
+- title :       Pair programming
+  image :       img/practices/redgreenrefactor.png
+  description : It has been established that writing code in pair produces higher quality result, encourages diversity
+                of thought and surprisingly increases productivity significantly.

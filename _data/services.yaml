@@ -2,21 +2,19 @@
   description : Every project is unique, and needs its own right toolset, language
                 and approach. We work with multiple languages and approaches.
                 Also, buiding alone has no business value, it needs to be delivered.
-  image:        fa-diamond
+  image:        fa-cubes #fa-diamond
 
+- title :       Mobile Development
+  description:  Your project needs to be ready to serve people on the go to reach most of its users. We can
+                build mobile ready applications; from mobile apps to responsive
+                sites that can be used on any device.
+  image:        fa-mobile faa-shake animated
 
 - title :       Project planning
   description:  Have ideas that needs roadmaps? An inception should provide with
                 a crows view of tasks ahead, team requirements, estimates and
                 release plans. We can help plan your software with your ideas.
-  image:        fa-paper-plane
-
-
-- title :       Mobile Development
-  description:  Your project needs to be ready to serve people on the go. We can
-                build mobile ready applications, from mobile apps to responsive
-                sites that can be used on any device.
-  image:        fa-paper-plane
+  image:        fa-line-chart
 
 - title :       Test automation
   description:  A repeatetive guarantee of what works provides confidence to deliver.
@@ -28,13 +26,20 @@
   description:  Money spent on a feature lying on the shelf provides no return. This
                 problem can be solved if we are able to release on demand with
                 a single command and making sure it can be repeated when it is needed.
-  image:        fa-cloud-upload
+  image:        fa-cloud-upload faa-float animated
+
+- title :       Solutions Architecture
+  description:  Enterprises with a lot of teams need to collaboarate with each
+                other while staying autonomous so as to be most productive. We
+                can design the solutions for your enterprise so that all moving
+                parts fit perfectly.
+  image:        fa-cogs
 
 - title :       Startup
   description:  Startups are different to established business. Having worked with
                 startups before, we can help setup the base of your product,
                 create MVPs needed, build teams and even develop the complete product.
-  image:        fa-rocket
+  image:        fa-space-shuttle  faa-passing animated #fa-rocket
 
 - title :       Team Culture
   description:  Software delivery is a team activity. It needs mentor-ship, technology
