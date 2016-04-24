@@ -1,15 +1,15 @@
-<section class="bg-primary" id="portfolio">
+<section class="bg-primary trimmed-bottom" id="portfolio">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Our practices</h2>
+                <h2 class="section-heading">How we work</h2>
                 <hr class="light">
             </div>
         </div>
         <div class="row no-gutter">
             {% for service in site.data.practices %}
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box">
+                <a class="portfolio-box" style="cursor: ">
                     {% assign palletIndex = forloop.index | modulo:site.data.pallets.size %}
                     <img src="img/practices/stensil.png" class="img-responsive" alt=""
                     style="background-color: #{{ site.data.pallets[palletIndex] }}">

@@ -155,9 +155,14 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/nightvision.gif');
+    background-image: url('../img/nightvision-faded.gif');
     text-align: center;
     color: white;
+    .header-content-blur{
+        position: relative;
+        width: 100%;
+        background-color: rgba(255,255,255, 0.5);
+    }
     .header-content {
         position: relative;
         text-align: center;
