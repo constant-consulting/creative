@@ -17,7 +17,7 @@
   image:        fa-line-chart
 
 - title :       Test automation
-  description:  A repeatetive guarantee of what works provides confidence to deliver.
+  description:  A repetitive guarantee of what works provides confidence to deliver.
                 The impact area of a change grows with the project size. This is
                 where test automation keeps the team sane and productive.
   image:        fa-cog fa-spin

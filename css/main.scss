@@ -34,7 +34,9 @@
 // }
 
 // variables.less
-$theme-primary: #44A7CE;
+$theme-primary: #008080;
+$theme-secondary: #666666;
+// $theme-primary: #44A7CE;
 $theme-dark: #222;
 $theme-light-black: #DDD;
 $theme-highlight: #44CE8A;
@@ -45,6 +47,7 @@ $theme-silver: silver;
 @import
         "mixins",
         "base",
+        "navbar",
         "header",
         "contact-us",
         "footer",

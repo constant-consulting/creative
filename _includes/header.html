@@ -1,13 +1,24 @@
 <header id="header">
+<!-- <div style="color: white;
+        display: block;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+6,ffffff+70&1+1,0+7 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,0.17) 6%, rgba(255,255,255,0) 7%, rgba(255,255,255,0) 70%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 1%,rgba(255,255,255,0.17) 6%,rgba(255,255,255,0) 7%,rgba(255,255,255,0) 70%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 1%,rgba(255,255,255,0.17) 6%,rgba(255,255,255,0) 7%,rgba(255,255,255,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;"></div> -->
     <div class="header-content">
+
         <div class="header-content-inner">
-            <h1>Building software is an engineering feat</h1>
-            <h2>A simple engineering</h2>
+            <h1>{{site.data.header.title}}</h1>
+            <h2>{{site.data.header.subtitle}}</h2>
             <hr>
             <p>
-                It doesn't have to be as tough as it sounds. The technical problems have already been solved.
-                Now the only problem left is to integrate your domain to the technology.
-                We make this feat simple for you.
+               {{site.data.header.description}}
             </p>
 
             <a href="#about" class="btn btn-default btn-xl page-scroll">
