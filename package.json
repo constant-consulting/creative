@@ -2,11 +2,8 @@
   "_aerobatic": {
     "build": {
       "engine": "jekyll"
-    }
-  },
-  "_virtualApp": {
-    "router": [
-      {
+    },
+    "router": [        {
         "module": "custom-errors",
         "options": {
           "errors": {
