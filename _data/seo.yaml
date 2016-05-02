@@ -1,4 +1,9 @@
-description: Constant Software Consulting provides consulting for software development, solutions architecture, test automation, devops, mvp products for starups, project/product inceptions agile coaching, iteration management and other facets of software delivery. We follow agile principles, TDD, small iterations, quick feedback, continuous integration, continuous delivery and above all value based delivery. Whether its a small prototype, or an eterprise application or even bigger public domain applications, we can help deliver your product.
-title: Agile software consulting and development | Constant Consulting
-type: website
-url: http://constant.consulting
+mainpage:
+  description: Sydney based Constant Software Consulting provides consulting for software development, solutions architecture, test automation, devops, mvp products for starups, project/product inceptions agile coaching, iteration management and other facets of software delivery. We follow agile principles, TDD, small iterations, quick feedback, continuous integration, continuous delivery and above all value based delivery. Whether its a small prototype, a startup product, or an eterprise application or even bigger public domain applications, we can help deliver your product.
+  title: Agile software consulting and development | Constant Consulting
+  type: "website"
+  url: http://constant.consulting
+error-404:
+  description: This is the error page for constant consulting. You can see that there is a problem because homer simpson in exercising. Also, there is an engaging game to play to beat homer's score.
+  title: Error - page not found | Constant Consulting
+  type: "web page"
