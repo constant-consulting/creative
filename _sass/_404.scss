@@ -1,0 +1,50 @@
+// Navigation
+.navbar-default {
+    &.page-not-found {
+        @media (min-width: 768px) {
+            background-color: rgba($theme-dark, .6);
+        }
+    }
+}
+
+section{
+    &.page-not-found {
+        margin-top:0;
+        .portfolio-box{
+            color: $theme-primary;
+        }
+        padding-top: 52px;
+        padding-bottom: 0;
+        .compact {
+            margin-top: 0px;
+            margin-bottom: 0;
+        }
+        .game-button {
+
+        }
+        .homer-section {
+            padding-top: 50px;
+        }
+
+        .look-down{
+            display: inline-block;
+        }
+        .look-right{
+            display: none;
+        }
+        @media (min-width: 768px) {
+            .look-down{
+                display: none;;
+            }
+            .look-right{
+                display: inline;
+            }
+            .game-section{
+                border-left-color: $theme-dark;
+                border-left: solid;
+                border-left-width: 1px;
+
+            }
+        }
+    }
+}

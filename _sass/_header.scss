@@ -6,23 +6,9 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    // background-image: url('../img/nightvision-faded-C.jpg');
-    // background-image: url('../img/nightvision-faded-white.jpg');
-    // background-image: url('../img/nightvision-faded-vig.jpg');
-    // background-image: url('../img/nightvision-faded-dodged.jpg');
-    // background-image: url('../img/nightvision-faded-framed.jpg');
     background-image: url('../img/nightvision-faded.gif');
-    // background-image: url('../img/header-grunge-erased.jpg');
-    // background-image: url('../img/header-grunge-framed.jpg');
-    // background-image: url('../img/header-grunge.png');
-    // background-image: url('../img/header-white.jpg');
     text-align: center;
     color: white;
-    .header-content-blur{
-        position: relative;
-        width: 100%;
-        background-color: rgba(255,255,255, 0.5);
-    }
     .header-content {
         position: relative;
         text-align: center;
