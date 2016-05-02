@@ -3,11 +3,12 @@
     "build": {
       "engine": "jekyll"
     },
-    "router": [        {
+    "router": [
+      {
         "module": "custom-errors",
-        "options": {
-          "errors": {
-            "404": "404.html",
+        "options":{
+          "errors":{
+            "404": "404.html"
           }
         }
       },
