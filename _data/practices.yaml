@@ -1,19 +1,19 @@
 - title :       TDD
   image :       img/practices/redgreenrefactor.png
   description : Writing tests before production code sets up the correct expectations.
-                This porvides a guarantee that the system behaves as expected, without
+                This provides a guarantee that the system behaves as expected, without
                 bugs even as it grows.
 
 - title :       Agile
   image :       img/practices/agile-values.png
-  description : We emphasize on the principles of the agile manifesto over the processes established.
+  description : We emphasize the principles of the agile manifesto over the processes established.
                 This has helped us question various practices in our team and select the
                 ones that solve the problem.
 
 - title :       Small Iterations
   image :       img/practices/addie-process.png
   description : Most software requirements are based on some form of assumptions. To make
-                a product successful, we work on short iterations, we constantly revalidating
+                a product successful, we work on short iterations, constantly revalidating
                 our assumptions.
 
 - title :       Continuous Integration
@@ -23,25 +23,25 @@
 
 - title :       Continuous Delivery
   image :       img/practices/redgreenrefactor.png
-  description : We believe in delivering work to the market as soon as it is completed
-                This allows investment to reap the fruits early and the team can get feedback
+  description : We believe in delivering work to the market as soon as it is completed.
+                This allows investment to reap the fruits early. The team can get feedback
                 immediately helping us adapt to the market rapidly.
 
 - title :       User Research
   image :       img/practices/redgreenrefactor.png
-  description : Systems are built mostly for users. To build the right system, we sample the users and understand
+  description : Systems are built for users. To build the right system, we sample the users and understand
                 what they really want, what they need and if the proposed or existing system is useful to them.
 
 - title :       Pair programming
   image :       img/practices/redgreenrefactor.png
-  description : It has been established that writing code in pair produces higher quality result, encourages diversity
-                of thought and surprisingly increases productivity significantly.
+  description : It has been established that writing code in pairs produces higher quality results, encourages diversity
+                of thought and increases productivity significantly.
 
 - title :       Devops
   image :       img/practices/redgreenrefactor.png
   description : To be able to do continuous delivery, we need to be able to deliver
                 fully baked infrastructure for our needs. Industry standard tools
-                like chef, ansible, puppet,... do this for us.
+                like Chef, Ansible, Puppet,... do this for us.
 
 - title :       Cloud
   image :       img/practices/redgreenrefactor.png

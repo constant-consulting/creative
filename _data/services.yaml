@@ -6,17 +6,17 @@
 
 - title :       Mobile Development
   description:  Your project needs to be ready to serve people on the go to reach most of its users. We can
-                build mobile ready applications; from mobile apps to responsive
+                build mobile ready applications from mobile apps to responsive
                 sites that can be used on any device.
   image:        fa-mobile faa-shake animated
 
-- title :       Project planning
-  description:  Have ideas that needs roadmaps? An inception should provide with
-                a crows view of tasks ahead, team requirements, estimates and
+- title :       Project Planning
+  description:  Have ideas that need roadmaps? An inception should provide with
+                a birds eye view of tasks ahead, team requirements, estimates and
                 release plans. We can help plan your software with your ideas.
   image:        fa-line-chart
 
-- title :       Test automation
+- title :       Test Automation
   description:  A repetitive guarantee of what works provides confidence to deliver.
                 The impact area of a change grows with the project size. This is
                 where test automation keeps the team sane and productive.
@@ -36,13 +36,13 @@
   image:        fa-cogs
 
 - title :       Startup
-  description:  Startups are different to established business. Having worked with
+  description:  Startups are different to established businesses. Having worked with
                 startups before, we can help setup the base of your product,
                 create MVPs needed, build teams and even develop the complete product.
   image:        fa-space-shuttle  faa-passing animated #fa-rocket
 
 - title :       Team Culture
-  description:  Software delivery is a team activity. It needs mentor-ship, technology
+  description:  Software delivery is a team activity. It needs mentorship, technology
                 ramp up and team culture. We can help build your team that focusses
                 more on <i>value based delivery</i> rather than <i>statistics</i>.
   image:        fa-puzzle-piece
